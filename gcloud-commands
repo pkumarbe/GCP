@@ -1,3 +1,8 @@
-gcloud compute instances list
 
+gcloud init
+gcloud auth list
+gcloud auth login
+gcloud auth activate-service-account --key-file=sa_key.json
+cloud compute instances list
 gcloud compute firewall-rules list
+gcloud compute images list
